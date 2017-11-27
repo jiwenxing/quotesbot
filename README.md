@@ -34,7 +34,19 @@ You can learn more about the spiders by going through the
 
 ## Running the spiders
 
-You can run a spider using the `scrapy crawl` command, such as:
+First of all, install scrapy
+
+    $ pip install scrapy
+
+if followed error occurs, run `pip install pypiwin32` to install the module
+
+    > no module named win32api
+
+and deal with this error below by installing [`Visual C++ 2015 Build Tools`](http://landinghub.visualstudio.com/visual-cpp-build-tools)
+
+    > Microsoft Visual C++ 14.0 is required
+
+Now you can run a spider using the `scrapy crawl` command, such as:
 
     $ scrapy crawl toscrape-css
 
